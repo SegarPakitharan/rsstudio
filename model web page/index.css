@@ -1,0 +1,147 @@
+/* Common style */
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/* Common nav style */
+.navigation-wrapper{
+    height: 190px;
+    background-color: #11122b;
+    color:#cbcbcb;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:60px 100px ;
+}
+
+
+
+ .left-column{
+    display: flex;
+    align-items: center;
+}
+
+.icon img{
+    margin-right: 10px;
+}
+
+.contact-hours-wrapper:hovar {
+    color: #cea135;
+    
+}
+
+
+
+.right-column{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+
+
+.navigation-wrapper > .right-column > .icon2 a img{
+    margin: 0px;
+    color: #f7f7f7;
+}
+
+
+.navigation-wrapper > .right-column > .address-wrapper a {
+     color: #cbcbcb;
+     text-decoration: none;
+     transition: 0.5s;
+
+}
+
+
+.navigation-wrapper > .right-column > .address-wrapper a:hover{
+    color: #cea135;
+    
+}
+
+.navigation-wrapper > .right-column > .icon2 a img:hover{
+    color: #cea135;
+    transition: 0.5s;
+}
+ 
+
+
+
+.nav-link a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.banner-image img{
+    width: 220px;
+    height: 100%;
+    
+}
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+
+}
+
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.link-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.link-wrapper > .nav-link{
+    width: 70px;
+    text-align: center;
+
+}
+
+.link-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    transition: 0.5s;
+
+}
+
+.link-wrapper > .nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+
+
+.contact-hours-wrapper{
+    
+}
+
+
+
+.address-wrapper{
+    
+}
+
+
+.features-section > .columns-wrapper > .column:hover{
+    outline: none;
+    box-shadow:0 1rem 2rem #050214 ;
+    border-bottom: 3px solid rgb(21, 21, 223);
+
+}
+
+

@@ -1,0 +1,184 @@
+/* hero section style */
+.hero-section{
+    background-image: url(../Background/spiderman.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.hero-section > .top-heading {
+    padding: 1px 20px;
+    background-color: #11122b;
+    color: aliceblue;
+    width: 360px;
+    border-radius: 2px;
+
+
+
+    
+    
+
+}
+
+
+
+.hero-section > .bottom-heading {
+    padding: 1px 10px;
+    background-color: #f50919;
+    color: aliceblue;
+    border-radius: 2px;
+    width: 120px;
+    margin-top: 15px;
+
+}
+
+/* feature section style */
+
+.features-section{
+    height:400px ;
+    background-image: url(../Background/813920.webp);
+    border-top: 10px solid black;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58) ;
+
+
+
+}
+
+
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.column {
+    padding: 20px;
+    margin: 40px;
+    text-align: center;
+    border-bottom: 10px;
+    transition: 1s;
+    color: aliceblue;
+
+}
+
+.column:hover {
+    border-bottom: 5px solid #000001;
+    text-decoration: none;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 500;
+    height: 50px;
+    transition: 1s;
+
+
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2):hover {
+    letter-spacing: 1px;
+
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3) {
+    letter-spacing: 2px;
+
+} 
+
+
+
+/* Footer Style */
+.footer {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    margin-top: -4px;
+}
+
+.footer > .logo-footer img{
+   /* filter: brightness(50%); */
+    opacity: 0.5;
+    width: 100%;
+    height: 100px;
+
+
+}
+
+.footer > .footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+
+}
+
+.footer > .footer-phone-hours > .hours {
+  font-size: 0.8em;
+  color: #cea135;
+  text-transform: uppercase;
+    
+}
+
+
+.footer > .link-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+
+.footer > .social-media-icons-wrapper a img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 60px;
+    justify-content: space-between;
+    
+}
+
+
+.footer > .social-media-icons-wrapper a{
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+
+.footer > .copyright-wrapper{
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+
+
+
+}
+
+.footer > .copyright-wrapper:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+    color: #cea135;
+    letter-spacing:1px ;
+
+}
