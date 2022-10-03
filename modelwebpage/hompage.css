@@ -1,6 +1,6 @@
 /* hero section style */
 .hero-section{
-    background-image: url(../Background/spiderman.jpg);
+    background-image: url(./spiderman4.jpg);
     padding: 100px;
     height: 300px;
     background-attachment: fixed;
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .features-section{
     height:400px ;
-    background-image: url(../Background/813920.webp);
+    background-image: url(./813920.webp);
     border-top: 10px solid black;
     color: #11122b;
     display: flex;
