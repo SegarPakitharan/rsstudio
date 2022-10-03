@@ -73,7 +73,7 @@
 
     .page-container{
         padding-left: 21px;
-        padding-right:21px ;
+        padding-right:30px ;
     }
 
     .content-wrapper > #spider {
@@ -95,18 +95,23 @@
 
     .contact-grid-wrapper{
         width: 100%;
-        grid-template-columns: 1fr;
-        grid-gap: 10px;
+        grid-template-columns:1fr;
+        grid-gap: 1px;
+        
 
     }
 
     .form input{
-        padding: 1.5rem 0rem;
+        padding: 1rem 0rem;
+        
 
     }
 
     .form textarea{
-        padding: 1.5rem 0rem;
+        padding: 1rem 0rem;
+        
 
     }
+
+
 }

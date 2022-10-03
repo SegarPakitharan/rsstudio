@@ -12,18 +12,29 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
+    text-shadow: #000000 4px 2px 2px;
 }
 
 .hero-section > .top-heading {
     padding: 1px 20px;
-    background-color: #11122b;
-    color: aliceblue;
-    width: 360px;
+    color: rgb(254, 254, 254);
+    width: 500px;
     border-radius: 2px;
+    height: 70px;
+
+
+}
 
 
 
-    
+.hero-section > .top-heading:hover{
+
+    outline: none;
+    box-shadow:0 1rem 2rem #050214 ;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
     
 
 }
@@ -31,12 +42,22 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .hero-section > .bottom-heading {
+    text-decoration:none;
     padding: 1px 10px;
-    background-color: #f50919;
-    color: aliceblue;
+    color: rgb(234, 233, 242);
     border-radius: 2px;
-    width: 120px;
+    width: 180px;
     margin-top: 15px;
+
+}
+
+.hero-section > .bottom-heading:hover{
+    box-shadow:0 1rem 2rem #050214 ;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    
 
 }
 
@@ -108,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Footer Style */
 .footer {
-    background-color: #11122b;
+    background-image:url(./813920.webp) ;
     color: #cbcbcb;
     font-family: "Ubuntu Condensed", sans-serif;
     display: flex;
@@ -182,3 +203,6 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing:1px ;
 
 }
+
+
+

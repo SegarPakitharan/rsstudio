@@ -9,8 +9,9 @@ body{
 /* Common nav style */
 .navigation-wrapper{
     height: 190px;
-    background-color: #11122b;
+    background-image: url(./HD-Amazing-Spider-Man-2-Wallpapers-069.jpg);
     color:#cbcbcb;
+    border-bottom: #000000 5px solid;
     /* flexbox container */
     display: flex;
     justify-content: space-between;
