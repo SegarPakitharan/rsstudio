@@ -138,7 +138,7 @@
     border-bottom: 1px solid #250767;
     border-radius: 20px;
     box-shadow: 0px 4px 0px 0px;
-    color: #0b0303;
+    color: #000000;
     background-color: #cbcbcb;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -152,12 +152,12 @@
 }
 
 .squares-wrapper > .squares > .square > .square-text-wrapper h1:hover{
-    color: #040926;
+    color: #092dfa;
     text-decoration: underline;
 }
 
 .square > .square-text-wrapper h1 {
-    color:#4b0404 ;
+    color:#eb0707 ;
 
 
 }
